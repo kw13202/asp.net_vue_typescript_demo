@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "命令行配置", "命令行配置", "{B1833217-0A65-4934-9FFF-A77797322E07}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.命令行配置", "1.命令行配置", "{B1833217-0A65-4934-9FFF-A77797322E07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandLineSample", "命令行配置\CommandLineSample\CommandLineSample.csproj", "{6A3C7899-ADC2-43C3-827D-1EA7C7E714EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandLineSample", "命令行配置\CommandLineSample\CommandLineSample.csproj", "{6A3C7899-ADC2-43C3-827D-1EA7C7E714EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Json文件配置", "2.Json文件配置", "{CA8160DA-9F44-48FE-B53D-BD6B2E1A1188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonConfigSample", "Json文件配置\JsonConfigSample\JsonConfigSample.csproj", "{8064F871-D5A1-4506-A4C0-851457CFD9B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{6A3C7899-ADC2-43C3-827D-1EA7C7E714EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A3C7899-ADC2-43C3-827D-1EA7C7E714EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A3C7899-ADC2-43C3-827D-1EA7C7E714EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8064F871-D5A1-4506-A4C0-851457CFD9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8064F871-D5A1-4506-A4C0-851457CFD9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8064F871-D5A1-4506-A4C0-851457CFD9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8064F871-D5A1-4506-A4C0-851457CFD9B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A3C7899-ADC2-43C3-827D-1EA7C7E714EE} = {B1833217-0A65-4934-9FFF-A77797322E07}
+		{8064F871-D5A1-4506-A4C0-851457CFD9B2} = {CA8160DA-9F44-48FE-B53D-BD6B2E1A1188}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE2C6D07-D1F0-4FD9-ACC1-5B4757E6C517}
