@@ -1,0 +1,17 @@
+﻿@model OptionBindSample2.Class
+@{
+    Layout = null;
+}
+
+<h2>Index</h2>
+<h4>Class No:@(Model.ClassNo)</h4>
+<h4>Class Desc:@(Model.ClassDesc)</h4>
+<h3>Students:</h3>
+<div>
+    @foreach (var student in Model.Students)
+    {
+        <span>Name:@(student.Name)</span>
+        <span>Age:@(student.Age)</span>
+    }
+</div>
+

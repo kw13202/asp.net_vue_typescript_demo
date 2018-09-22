@@ -1,0 +1,17 @@
+﻿@using Microsoft.Extensions.Options;
+@inject IOptions<OptionBindSample2.Class> ClassOptions
+@{
+    Layout = null;
+}
+
+<h2>Index</h2>
+<h4>Class No:@(ClassOptions.Value.ClassNo)</h4>
+<h4>Class Desc:@(ClassOptions.Value.ClassDesc)</h4>
+<h3>Students:</h3>
+<div>
+    @foreach (var student in ClassOptions.Value.Students)
+    {
+        <span>Name:@(student.Name)</span>
+        <span>Age:@(student.Age)</span>
+    }
+</div>
